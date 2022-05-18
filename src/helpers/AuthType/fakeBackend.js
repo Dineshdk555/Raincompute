@@ -49,7 +49,7 @@ let users = [
     username: "admin",
     role: "admin",
     password: "123456",
-    email: "dinesh@syntorion.com",
+    email: "admin@themesbrand.com",
   },
 ]
 
