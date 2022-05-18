@@ -122,12 +122,12 @@ const Layout = (props) => {
           isMenuOpened={isMenuOpened}
           openLeftMenuCallBack={openMenu}
         />
-        {/* <Navbar menuOpen={isMenuOpened} /> */}
+        <Navbar menuOpen={isMenuOpened} /> 
         <div className="main-content">{props.children}</div>
         <Footer />
       </div>
 
-      {/* {showRightSidebar ? <RightSidebar /> : null} */}
+       {showRightSidebar ? <RightSidebar /> : null}  
     </React.Fragment>
   );
 }

@@ -22,8 +22,7 @@ import FacebookLogin from "react-facebook-login/dist/facebook-login-render-props
 import { loginUser, socialLogin } from "../../store/actions";
 
 // import images
-import Rain  from "assets/images/rain.png";
-import Computing from "assets/images/computer.png"
+
 import profile from "assets/images/profile-img.png";
 import logo from "assets/images/logo-light.png";
 
@@ -98,36 +97,9 @@ const Login = props => {
       <MetaTags>
         <title>Login | Rain -  Admin & Dashboard Template</title>
       </MetaTags>
-      <div>
-        <div style = {{
-             margin : "3%",
-             width: "12%",
-             display: "flex",
-             justifyContent: "space-between"
-         }}>
-          <img
-             src={ Rain }
-             alt=""
-           />
-           </div>
-           <div style={{
-              marginLeft : "12%",
-              display: "flex",
-              justifyContent: "space-between",
-          }}>
-           <img
-             src={ Computing }
-             alt=""
-           />
-          </div>
-          <div 
-          style = {{
-            display: "flex",
-            justifyContent: "space-between",
-            marginLeft: "20%",
-            marginTop: "-34%",
-           width: "200%"
-          }}>
+    
+      
+
       <div className="home-btn d-none d-sm-block">
         <Link to="/" className="text-dark">
           <i className="fas fa-home h2" />
@@ -136,14 +108,14 @@ const Login = props => {
       <div className="account-pages my-5 pt-sm-5">
         <Container>
           <Row className="justify-content-center">
-            <Col md={8} lg={6} xl={5}>
+            <Col  xl={10}>
               <Card className="overflow-hidden">
                 <div className="bg-primary bg-soft">
                   <Row>
                     <Col xs={7}>
                       <div className="text-primary p-4">
-                        <h5 className="text-primary">Welcome Back !</h5>
-                        <p>Sign in to continue to Rain.</p>
+                        <h5 className="text-primary">Welcome to Rain !</h5>
+                        <p>The best Legal Case Manager.</p>
                       </div>
                     </Col>
                     <Col className="col-5 align-self-end">
@@ -324,8 +296,8 @@ const Login = props => {
           </Row>
         </Container>
       </div>
-      </div>
-     </div>
+      
+     
    </React.Fragment>
 
   );

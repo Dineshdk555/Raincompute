@@ -49,9 +49,10 @@ function manageBodyClass(cssClass, action = "toggle") {
  * @param {*} param0
  */
 function* changeLayout({ payload: layout }) {
+  console.log(layout,'layout')
   try {
     if (layout === "horizontal") {
-      yield put(changeTopbarThemeAction("dark"))
+      yield put(changeTopbarThemeAction("light"))
       document.body.removeAttribute("data-sidebar")
       document.body.removeAttribute("data-sidebar-image")
       document.body.removeAttribute("data-sidebar-size")

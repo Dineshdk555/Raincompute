@@ -39,12 +39,13 @@ const ProfileMenu = props => {
 
   return (
     <React.Fragment>
+
       <Dropdown
         isOpen={menu}
         toggle={() => setMenu(!menu)}
         className="d-inline-block"
       >
-        <DropdownToggle
+      <DropdownToggle
           className="btn header-item "
           id="page-header-user-dropdown"
           tag="button"
@@ -54,6 +55,7 @@ const ProfileMenu = props => {
             src={user1}
             alt="Header Avatar"
           />
+          
           <span className="d-none d-xl-inline-block ms-2 me-1">{username}</span>
           <i className="mdi mdi-chevron-down d-none d-xl-inline-block"/>
         </DropdownToggle>

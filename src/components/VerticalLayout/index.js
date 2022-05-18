@@ -149,7 +149,7 @@ const Layout = props => {
         <div className="main-content">{props.children}</div>
         <Footer />
       </div>
-      {/* {showRightSidebar ? <RightSidebar /> : null} */}
+        {showRightSidebar ? <RightSidebar /> : null}   
     </React.Fragment>
   );
 };

@@ -88,7 +88,7 @@ const Header = props => {
               </Link>
             </div> */}
             <div >
-              <img src = {logoLight} alt ="" height="50"></img>
+              <img src = {logoLight} alt ="" height="70"></img>
             </div>
 {/* 
             <button
@@ -103,7 +103,7 @@ const Header = props => {
               <i className="fa fa-fw fa-bars" />
             </button> */}
 
-            {/* <form className="app-search d-none d-lg-block">
+             {/* <form className="app-search d-none d-lg-block">
               <div className="position-relative">
                 <input
                   type="text"
@@ -112,7 +112,7 @@ const Header = props => {
                 />
                 <span className="bx bx-search-alt" />
               </div>
-            </form> */}
+            </form>  */}
 
             {/* <Dropdown
               className="dropdown-mega d-none d-lg-block ms-2"
@@ -299,8 +299,35 @@ const Header = props => {
                 </form>
               </div>
             </div>
+            
+         <Link to="/register">
+         {/* <span className="d-inline-block">{props.t("Signup")}</span>          */}
+         {/* <div className="d-flex flex-wrap gap-2"> */}
+                    {/* <button
+                      type="button"
+                      className="btn btn-primary "
+                    >
+                      <i className="bx bx-smile font-size-12 align-middle me-2"></i>{" "}
+                      Signup
+                    </button> */}
+                    {/* </div> */}
+         <Link to="/logout">         
+         {/* <span >{props.t("Login")}</span> */}
+         {/* <div className="d-flex flex-wrap gap-2"> */}
+                    <button
+                      type="button"
+                      className="btn btn-danger "
+                      style={{
+                        marginTop: "20%",
+                      }}
+                    >
+                      <i className="bx bx-smile font-size-10 align-middle me-0"></i>{" "}
+                      Login
+                    </button>
+                    {/* </div> */}
 
-            <LanguageDropdown />
+         </Link>
+         </Link>
 
             {/* <Dropdown
               className="d-none d-lg-inline-block ms-1"
@@ -377,9 +404,9 @@ const Header = props => {
 
             {/* <NotificationDropdown /> */}
 
-            <ProfileMenu />
+            {/* <ProfileMenu /> */}
 
-            {/* <div className="dropdown d-inline-block">
+             {/* <div className="dropdown d-inline-block">
               <button
                 onClick={() => {
                   props.showRightSidebarAction(!props.showRightSidebar);
@@ -389,7 +416,9 @@ const Header = props => {
               >
                 <i className="bx bx-cog bx-spin" />
               </button>
-            </div> */}
+            </div>  */}
+          <LanguageDropdown />
+
           </div>
         </div>
       </header>

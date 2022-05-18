@@ -57,18 +57,18 @@ const ForgetPasswordPage = props => {
       <div className="account-pages my-5 pt-sm-5">
         <Container>
           <Row className="justify-content-center">
-            <Col md={8} lg={6} xl={5}>
+            <Col xl={8}>
               <Card className="overflow-hidden">
                 <div className="bg-primary bg-softbg-soft-primary">
                   <Row>
                     <Col xs={7}>
                       <div className="text-primary p-4">
-                        <h5 className="text-primary">Welcome Back !</h5>
-                        <p>Sign in to continue to Rain.</p>
+                        <h5 className="text-primary">Welcome to Rain!</h5>
+                        <p>The best Legal Case Manager.</p>
                       </div>
                     </Col>
                     <Col className="col-5 align-self-end">
-                      <img src={profile} alt="" className="img-fluid" />
+                      <img src={profile} alt="" className="img-fluid" /> 
                     </Col>
                   </Row>
                 </div>
@@ -76,14 +76,14 @@ const ForgetPasswordPage = props => {
                   <div>
                     <Link to="/">
                       <div className="avatar-md profile-user-wid mb-4">
-                        <span className="avatar-title rounded-circle bg-light">
-                          <img
+                         <span className="avatar-title rounded-circle bg-light">
+                           <img
                             src={logo}
                             alt=""
                             className="rounded-circle"
                             height="60"
-                          />
-                        </span>
+                          /> 
+                        </span> 
                       </div>
                     </Link>
                   </div>

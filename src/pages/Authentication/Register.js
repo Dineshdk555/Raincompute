@@ -68,7 +68,7 @@ const Register = props => {
       <div className="account-pages my-5 pt-sm-5">
         <Container>
           <Row className="justify-content-center">
-            <Col md={8} lg={6} xl={5}>
+            <Col xl={8}>
               <Card className="overflow-hidden">
                 <div className="bg-primary bg-soft">
                   <Row>

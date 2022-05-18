@@ -5,7 +5,7 @@ const tasks = [
     tasks: [
       {
         id: 11,
-        description: "Create a Skote Dashboard UI",
+        description: "Create a Rain Dashboard UI",
         members: [
           {
             username: "",
@@ -40,7 +40,7 @@ const tasks = [
       },
       {
         id: 13,
-        description: "Create a Skote Logo",
+        description: "Create a Rain Logo",
         members: [
           {
             username: "Fransis",
@@ -69,7 +69,7 @@ const tasks = [
       },
       {
         id: 22,
-        description: "Create a Blog Template UI",
+        description: "Create a Attorney UI",
         members: [
           {
             username: "Stephen",
@@ -121,7 +121,7 @@ const tasks = [
       },
       {
         id: 33,
-        description: "Create a Blog Template UI",
+        description: "Create a Attorney  UI",
         members: [
           {
             username: "",
@@ -217,7 +217,7 @@ const options = {
     gradient: {
       inverseColors: !1,
       shade: "light",
-      type: "vertical",
+      type: "horizontal",
       opacityFrom: 0.85,
       opacityTo: 0.55,
       stops: [0, 100, 100, 100],

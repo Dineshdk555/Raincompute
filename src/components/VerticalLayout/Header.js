@@ -97,7 +97,7 @@ const Header = props => {
               </Link>
             </div> */}
             <div >
-              <img src = {logoLight} alt ="" height="50"></img>
+              <img src = {logoLight} alt ="" height="70"></img>
             </div>
 
             {/* <button
@@ -120,10 +120,9 @@ const Header = props => {
                 />
                 <span className="bx bx-search-alt" />
               </div>
-              </form> */}
-            {/* </form>
+              </form>  */}
 
-            <Dropdown
+           {/* <Dropdown
               className="dropdown-mega d-none d-lg-block ms-2"
               isOpen={megaMenu}
               toggle={() => {
@@ -315,11 +314,20 @@ const Header = props => {
                 </form>
               </div>
             </div>
+            
+        <Link to="/register">
+        <span className="d-inline-block ">{props.t("Signup")}</span>
+        <i className="btn header-item"/>/
+        <Link to="/logout">
+        <i className="btn header-item  "/>   
+        <span >{props.t("Login")}</span>
+        </Link>
+        </Link>
 
-            <ProfileMenu />
+            {/* <ProfileMenu /> */}
 
 
-            <LanguageDropdown />
+            {/* <LanguageDropdown /> */}
 
             {/* <Dropdown
               className="d-none d-lg-inline-block ms-1"
@@ -396,7 +404,7 @@ const Header = props => {
 
             {/* <NotificationDropdown /> */}
 
-            {/* <div
+             {/* <div
                onClick={() => {
                 props.showRightSidebarAction(!props.showRightSidebar);
               }}
@@ -408,7 +416,7 @@ const Header = props => {
               >
                 <i className="bx bx-cog bx-spin" />
               </button>
-            </div> */}
+            </div>  */}
           </div>
         </div>
       </header>
