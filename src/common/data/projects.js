@@ -2,42 +2,42 @@ const projects = [
   {
     id: 0,
     img: "img1",
-    name: "New admin Design",
-    description: "It will be as simple as Occidental",
+    name: "Johnsnow",
+    description: "Criminal High Court Lawyer",
     status: "Completed",
     color: "success",
-    dueDate: "2019-10-15",
+    dueDate: "2022-05-15",
     commentsCount: 214,
     team: [
       {
         id: 1, img: "avatar4", fullname: "Janice Cole", skills: [
-          { id: 1, name: "Frontend" },
-          { id: 2, name: "UI" },
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
         ],
       },
       {
         id: 2, img: "avatar5", fullname: "Steve Foster",
-        skills: [{ id: 1, name: "UI/UX" }],
+        skills: [{ id: 1, name: "Assistant Attorney" }],
       },
       {
         id: 3, img: "Null", name: "A", color: "success", fullname: "Aeffrey Walker",
-        skills: [{ id: 1, name: "Backend" }],
+        skills: [{ id: 1, name: "Assistant Attorney" }],
       },
       {
         id: 4, img: "avatar2", fullname: "Daniel Candles",
         skills: [
-          { id: 1, name: "Frontend" },
-          { id: 2, name: "UI" },
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
         ],
       },
       {
-        id: 5, img: "avatar6", fullname: "Steve Foster",
+        id: 5, img: "avatar6", fullname: "Steve Jobs",
         skills: [
-          { id: 1, name: "UI/UX" },
+          { id: 1, name: "Assistant Attorney" },
         ],
       },
     ],
-    startDate: "08 Sept, 2019",
+    startDate: "08 may, 2022",
     projectDetails: {
       description:
         "To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,",
@@ -48,9 +48,9 @@ const projects = [
       ],
     },
     files: [
-      { name: "Skote Landing.Zip", size: "3.25 MB", link: "#" },
-      { name: "Skote Admin.Zip", size: "3.15 MB", link: "#" },
-      { name: "Skote Logo.Zip", size: "2.02 MB", link: "#" },
+      { name: "Rain Landing.Zip", size: "3.25 MB", link: "#" },
+      { name: "Rain Admin.Zip", size: "3.15 MB", link: "#" },
+      { name: "Rain Logo.Zip", size: "2.02 MB", link: "#" },
       { name: "Veltrix admin.Zip", size: "2.25 MB", link: "#" },
     ],
     comments: [

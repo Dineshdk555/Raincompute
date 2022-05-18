@@ -63,7 +63,7 @@ const ProjectsOverview = props => {
                 </Col>
               </Row>
 
-              <Row>
+              {/* <Row>
                 <Col lg="4">
                   <OverviewChart options={options} series={series} />
                 </Col>
@@ -75,7 +75,7 @@ const ProjectsOverview = props => {
                 <Col lg="4">
                   <Comments comments={projectDetail.comments} />
                 </Col>
-              </Row>
+              </Row> */}
             </>
           )}
         </Container>
