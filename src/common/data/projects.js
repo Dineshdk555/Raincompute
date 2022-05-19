@@ -3,7 +3,7 @@ const projects = [
     id: 0,
     img: "img1",
     name: "Johnsnow",
-    description: "Antitrust Division",
+    description: "Antitrust Division (AD)",
     status: "Completed",
     color: "success",
     dueDate: "2022-05-15",
@@ -41,6 +41,8 @@ const projects = [
     projectDetails: {
       description:
         "To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,",
+      Experience : "7Yrs",
+      Skills : "State Court",
       points: [
         "To achieve this, it would be necessary",
         "Separate existence is a myth.",
@@ -87,13 +89,40 @@ const projects = [
     dueDate: "2019-10-22",
     commentsCount: 183,
     team: [
-      { id: 1, img: "avatar8" },
-      { id: 2, img: "avatar2", fullname: "Daniel Candles" },
+      // { id: 1, img: "avatar8" ,fullname:"VanduMurugan"},
+      // { id: 2, img: "avatar2", fullname: "Daniel Candles"},
+      {
+        id: 1, img: "avatar4", fullname: "Janice Cole", skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 2, img: "avatar5", fullname: "Steve Foster",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 3, img: "Null", name: "A", color: "success", fullname: "Aeffrey Walker",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 4, img: "avatar2", fullname: "Daniel Candles",
+        skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 5, img: "avatar6", fullname: "Steve Jobs",
+        skills: [
+          { id: 1, name: "Assistant Attorney" },
+        ],
+      },
     ],
     startDate: "08 Sept, 2019",
     projectDetails: {
       description:
-        "To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,",
+        "He was sworn in as the United States Attorney for the Eastern District of Michigan by Chief United States District Judge Denise Page Hood.",
       points: [
         "To achieve this, it would be necessary",
         "Separate existence is a myth.",
@@ -134,14 +163,41 @@ const projects = [
     id: 2,
     img: "img3",
     name: "Tom Allen",
-    description: "Civil Rights Division",
+    description: "Civil Rights Division (CRD)",
     status: "Delay",
     color: "danger",
     dueDate: "2019-10-13",
     commentsCount: 175,
     team: [
-      { id: 1, img: "Null", name: "K", color: "info", fullname: "Kony Brafford" },
-      { id: 2, img: "avatar2", fullname: "Daniel Candles" }
+      // { id: 1, img: "Null", name: "K", color: "info", fullname: "Kony Brafford" },
+      // { id: 2, img: "avatar2", fullname: "Daniel Candles" }
+      {
+        id: 1, img: "avatar4", fullname: "Janice Cole", skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 2, img: "avatar5", fullname: "Steve Foster",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 3, img: "Null", name: "A", color: "success", fullname: "Aeffrey Walker",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 4, img: "avatar2", fullname: "Daniel Candles",
+        skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 5, img: "avatar6", fullname: "Steve Jobs",
+        skills: [
+          { id: 1, name: "Assistant Attorney" },
+        ],
+      },
     ],
     startDate: "08 Sept, 2019",
     projectDetails: {
@@ -187,13 +243,40 @@ const projects = [
     id: 3,
     img: "img4",
     name: "David C. Weiss",
-    description: "Justice Management Division",
+    description: "Justice Management Division(JMD)",
     status: "Completed",
     color: "success",
     dueDate: "2019-10-14",
     commentsCount: 202,
     team: [
-      { id: 1, img: "avatar4", fullname: "Janice Cole" },
+      // { id: 1, img: "avatar4", fullname: "Janice Cole" },
+      {
+        id: 1, img: "avatar4", fullname: "Janice Cole", skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 2, img: "avatar5", fullname: "Steve Foster",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 3, img: "Null", name: "A", color: "success", fullname: "Aeffrey Walker",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 4, img: "avatar2", fullname: "Daniel Candles",
+        skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 5, img: "avatar6", fullname: "Steve Jobs",
+        skills: [
+          { id: 1, name: "Assistant Attorney" },
+        ],
+      },
     ],
     startDate: "08 Sept, 2019",
     projectDetails: {
@@ -239,15 +322,42 @@ const projects = [
     id: 4,
     img: "img5",
     name: "Matthew M. Graves",
-    description: "Environment and Natural Resources Division ",
+    description: "Environment and Natural Resources Division (ENRD) ",
     status: "Completed",
     color: "success",
     dueDate: "2019-10-13",
     commentsCount: 194,
     team: [
-      { id: 1, img: "avatar1", fullname: "Jennifer Walker" },
-      { id: 2, img: "avatar3", fullname: "Daniel Candel" },
-      { id: 3, img: "Null", name: "3+", color: "danger" },
+      // { id: 1, img: "avatar1", fullname: "Jennifer Walker" },
+      // { id: 2, img: "avatar3", fullname: "Daniel Candel" },
+      // { id: 3, img: "Null", name: "3+", color: "danger" },
+      {
+        id: 1, img: "avatar4", fullname: "Janice Cole", skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 2, img: "avatar5", fullname: "Steve Foster",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 3, img: "Null", name: "A", color: "success", fullname: "Aeffrey Walker",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 4, img: "avatar2", fullname: "Daniel Candles",
+        skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 5, img: "avatar6", fullname: "Steve Jobs",
+        skills: [
+          { id: 1, name: "Assistant Attorney" },
+        ],
+      },
     ],
     startDate: "08 Sept, 2019",
     projectDetails: {
@@ -299,8 +409,35 @@ const projects = [
     dueDate: "2019-10-24",
     commentsCount: 222,
     team: [
-      { id: 1, img: "avatar4", fullname: "Janice Cole" },
-      { id: 2, img: "avatar5", fullname: "Steve Foster" },
+      // { id: 1, img: "avatar4", fullname: "Janice Cole" },
+      // { id: 2, img: "avatar5", fullname: "Steve Foster" },
+      {
+        id: 1, img: "avatar4", fullname: "Janice Cole", skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 2, img: "avatar5", fullname: "Steve Foster",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 3, img: "Null", name: "A", color: "success", fullname: "Aeffrey Walker",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 4, img: "avatar2", fullname: "Daniel Candles",
+        skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 5, img: "avatar6", fullname: "Steve Jobs",
+        skills: [
+          { id: 1, name: "Assistant Attorney" },
+        ],
+      },
     ],
     startDate: "08 Sept, 2019",
     projectDetails: {
@@ -352,8 +489,35 @@ const projects = [
     dueDate: "2019-10-15",
     commentsCount: 214,
     team: [
-      { id: 1, img: "avatar5", fullname: "Steve Foster" },
-      { id: 3, img: "Null", name: "R", color: "warning", fullname: "Rony Candles" },
+      // { id: 1, img: "avatar5", fullname: "Steve Foster" },
+      // { id: 3, img: "Null", name: "R", color: "warning", fullname: "Rony Candles" },
+      {
+        id: 1, img: "avatar4", fullname: "Janice Cole", skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 2, img: "avatar5", fullname: "Steve Foster",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 3, img: "Null", name: "A", color: "success", fullname: "Aeffrey Walker",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 4, img: "avatar2", fullname: "Daniel Candles",
+        skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 5, img: "avatar6", fullname: "Steve Jobs",
+        skills: [
+          { id: 1, name: "Assistant Attorney" },
+        ],
+      },
     ],
   },
   {
@@ -366,22 +530,76 @@ const projects = [
     dueDate: "2019-10-15",
     commentsCount: 214,
     team: [
-      { id: 1, img: "avatar5", fullname: "Steve Foster" },
-      { id: 3, img: "Null", name: "R", color: "warning", fullname: "Rony Candles" },
+      // { id: 1, img: "avatar5", fullname: "Steve Foster" },
+      // { id: 3, img: "Null", name: "R", color: "warning", fullname: "Rony Candles" },
+      {
+        id: 1, img: "avatar4", fullname: "Janice Cole", skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 2, img: "avatar5", fullname: "Steve Foster",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 3, img: "Null", name: "A", color: "success", fullname: "Aeffrey Walker",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 4, img: "avatar2", fullname: "Daniel Candles",
+        skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 5, img: "avatar6", fullname: "Steve Jobs",
+        skills: [
+          { id: 1, name: "Assistant Attorney" },
+        ],
+      },
     ],
   },
   {
     id: 8,
     img: "img3",
     name: "Shawn N. Anderson",
-    description: "Criminal Division",
+    description: "Criminal Division (CD)",
     status: "Completed",
     color: "success",
     dueDate: "11 Oct, 19",
     commentsCount: 185,
     team: [
-      { id: 1, img: "Null", name: "L", color: "pink", fullname: "Lony Mackay" },
-      { id: 3, img: "avatar2", fullname: "Daniel Candles" },
+      // { id: 1, img: "Null", name: "L", color: "pink", fullname: "Lony Mackay" },
+      // { id: 3, img: "avatar2", fullname: "Daniel Candles" },
+      {
+        id: 1, img: "avatar4", fullname: "Janice Cole", skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 2, img: "avatar5", fullname: "Steve Foster",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 3, img: "Null", name: "A", color: "success", fullname: "Aeffrey Walker",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 4, img: "avatar2", fullname: "Daniel Candles",
+        skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 5, img: "avatar6", fullname: "Steve Jobs",
+        skills: [
+          { id: 1, name: "Assistant Attorney" },
+        ],
+      },
     ],
     startDate: "08 Sept, 2019",
     projectDetails: {
@@ -433,10 +651,37 @@ const projects = [
     dueDate: "2019-10-12",
     commentsCount: 106,
     team: [
-      { id: 1, img: "avatar4", fullname: "Janice Cole" },
-      { id: 2, img: "avatar5", fullname: "Steve Foster" },
-      { id: 3, img: "Null", name: "A", color: "success", fullname: "Aeffrey Walker" },
-      { id: 3, img: "avatar2", fullname: "Daniel Candles" },
+      // { id: 1, img: "avatar4", fullname: "Janice Cole" },
+      // { id: 2, img: "avatar5", fullname: "Steve Foster" },
+      // { id: 3, img: "Null", name: "A", color: "success", fullname: "Aeffrey Walker" },
+      // { id: 3, img: "avatar2", fullname: "Daniel Candles" },
+      {
+        id: 1, img: "avatar4", fullname: "Janice Cole", skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 2, img: "avatar5", fullname: "Steve Foster",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 3, img: "Null", name: "A", color: "success", fullname: "Aeffrey Walker",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 4, img: "avatar2", fullname: "Daniel Candles",
+        skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 5, img: "avatar6", fullname: "Steve Jobs",
+        skills: [
+          { id: 1, name: "Assistant Attorney" },
+        ],
+      },
     ],
     startDate: "08 Sept, 2019",
     projectDetails: {
@@ -488,8 +733,35 @@ const projects = [
     dueDate: "11 Oct, 19",
     commentsCount: 185,
     team: [
-      { id: 1, img: "Null", name: "L", color: "pink", fullname: "Lony Mackay" },
-      { id: 3, img: "avatar2", fullname: "Daniel Candles" },
+      // { id: 1, img: "Null", name: "L", color: "pink", fullname: "Lony Mackay" },
+      // { id: 3, img: "avatar2", fullname: "Daniel Candles" },
+      {
+        id: 1, img: "avatar4", fullname: "Janice Cole", skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 2, img: "avatar5", fullname: "Steve Foster",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 3, img: "Null", name: "A", color: "success", fullname: "Aeffrey Walker",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 4, img: "avatar2", fullname: "Daniel Candles",
+        skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 5, img: "avatar6", fullname: "Steve Jobs",
+        skills: [
+          { id: 1, name: "Assistant Attorney" },
+        ],
+      },
     ],
     startDate: "08 Sept, 2019",
     projectDetails: {
@@ -535,14 +807,41 @@ const projects = [
     id: 11,
     img: "img2",
     name: "James C. Clay Joyner",
-    description: "Criminal Division",
+    description: "Criminal Division (CD)",
     status: "Completed",
     color: "success",
     dueDate: "11 Oct, 19",
     commentsCount: 185,
     team: [
-      { id: 1, img: "Null", name: "L", color: "pink", fullname: "Lony Mackay" },
-      { id: 3, img: "avatar2", fullname: "Daniel Candles" },
+      // { id: 1, img: "Null", name: "L", color: "pink", fullname: "Lony Mackay" },
+      // { id: 3, img: "avatar2", fullname: "Daniel Candles" },
+      {
+        id: 1, img: "avatar4", fullname: "Janice Cole", skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 2, img: "avatar5", fullname: "Steve Foster",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 3, img: "Null", name: "A", color: "success", fullname: "Aeffrey Walker",
+        skills: [{ id: 1, name: "Assistant Attorney" }],
+      },
+      {
+        id: 4, img: "avatar2", fullname: "Daniel Candles",
+        skills: [
+          { id: 1, name: "Assistant" },
+          { id: 2, name: "Attorney" },
+        ],
+      },
+      {
+        id: 5, img: "avatar6", fullname: "Steve Jobs",
+        skills: [
+          { id: 1, name: "Assistant Attorney" },
+        ],
+      },
     ],
     startDate: "08 Sept, 2019",
     projectDetails: {
