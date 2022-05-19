@@ -3,7 +3,7 @@ const projects = [
     id: 0,
     img: "img1",
     name: "Johnsnow",
-    description: "Criminal High Court Lawyer",
+    description: "Antitrust Division",
     status: "Completed",
     color: "success",
     dueDate: "2022-05-15",
@@ -80,8 +80,8 @@ const projects = [
   {
     id: 1,
     img: "img2",
-    name: "Brand logo design",
-    description: "To achieve it would be necessary",
+    name: "Walter Vetrivel",
+    description: "National Security Division (NSD)",
     status: "Pending",
     color: "warning",
     dueDate: "2019-10-22",
@@ -101,9 +101,9 @@ const projects = [
       ],
     },
     files: [
-      { name: "Skote Landing.Zip", size: "3.25 MB", link: "#" },
-      { name: "Skote Admin.Zip", size: "3.15 MB", link: "#" },
-      { name: "Skote Logo.Zip", size: "2.02 MB", link: "#" },
+      { name: "Rain Landing.Zip", size: "3.25 MB", link: "#" },
+      { name: "Rain Admin.Zip", size: "3.15 MB", link: "#" },
+      { name: "Rain Logo.Zip", size: "2.02 MB", link: "#" },
       { name: "Veltrix admin.Zip", size: "2.25 MB", link: "#" },
     ],
     comments: [
@@ -133,8 +133,8 @@ const projects = [
   {
     id: 2,
     img: "img3",
-    name: "New Landing Design",
-    description: "For science, music, sport, etc",
+    name: "Tom Allen",
+    description: "Civil Rights Division",
     status: "Delay",
     color: "danger",
     dueDate: "2019-10-13",
@@ -154,9 +154,9 @@ const projects = [
       ],
     },
     files: [
-      { name: "Skote Landing.Zip", size: "3.25 MB", link: "#" },
-      { name: "Skote Admin.Zip", size: "3.15 MB", link: "#" },
-      { name: "Skote Logo.Zip", size: "2.02 MB", link: "#" },
+      { name: "Rain Landing.Zip", size: "3.25 MB", link: "#" },
+      { name: "Rain Admin.Zip", size: "3.15 MB", link: "#" },
+      { name: "Rain Logo.Zip", size: "2.02 MB", link: "#" },
       { name: "Veltrix admin.Zip", size: "2.25 MB", link: "#" },
     ],
     comments: [
@@ -186,8 +186,8 @@ const projects = [
   {
     id: 3,
     img: "img4",
-    name: "Redesign - Landing page",
-    description: "If several languages coalesce",
+    name: "David C. Weiss",
+    description: "Justice Management Division",
     status: "Completed",
     color: "success",
     dueDate: "2019-10-14",
@@ -206,9 +206,9 @@ const projects = [
       ],
     },
     files: [
-      { name: "Skote Landing.Zip", size: "3.25 MB", link: "#" },
-      { name: "Skote Admin.Zip", size: "3.15 MB", link: "#" },
-      { name: "Skote Logo.Zip", size: "2.02 MB", link: "#" },
+      { name: "Rain Landing.Zip", size: "3.25 MB", link: "#" },
+      { name: "Rain Admin.Zip", size: "3.15 MB", link: "#" },
+      { name: "Rain Logo.Zip", size: "2.02 MB", link: "#" },
       { name: "Veltrix admin.Zip", size: "2.25 MB", link: "#" },
     ],
     comments: [
@@ -238,8 +238,8 @@ const projects = [
   {
     id: 4,
     img: "img5",
-    name: "Skote Dashboard UI",
-    description: "Separate existence is a myth",
+    name: "Matthew M. Graves",
+    description: "Environment and Natural Resources Division ",
     status: "Completed",
     color: "success",
     dueDate: "2019-10-13",
@@ -260,9 +260,9 @@ const projects = [
       ],
     },
     files: [
-      { name: "Skote Landing.Zip", size: "3.25 MB", link: "#" },
-      { name: "Skote Admin.Zip", size: "3.15 MB", link: "#" },
-      { name: "Skote Logo.Zip", size: "2.02 MB", link: "#" },
+      { name: "Rain Landing.Zip", size: "3.25 MB", link: "#" },
+      { name: "Rain Admin.Zip", size: "3.15 MB", link: "#" },
+      { name: "Rain Logo.Zip", size: "2.02 MB", link: "#" },
       { name: "Veltrix admin.Zip", size: "2.25 MB", link: "#" },
     ],
     comments: [
@@ -292,8 +292,8 @@ const projects = [
   {
     id: 5,
     img: "img6",
-    name: "Blog Template UI",
-    description: "For science, music, sport, etc",
+    name: "Jason R. Coody ",
+    description: "Justice Management Division (JMD)",
     status: "Pending",
     color: "warning",
     dueDate: "2019-10-24",
@@ -313,9 +313,9 @@ const projects = [
       ],
     },
     files: [
-      { name: "Skote Landing.Zip", size: "3.25 MB", link: "#" },
-      { name: "Skote Admin.Zip", size: "3.15 MB", link: "#" },
-      { name: "Skote Logo.Zip", size: "2.02 MB", link: "#" },
+      { name: "Rain Landing.Zip", size: "3.25 MB", link: "#" },
+      { name: "Rain Admin.Zip", size: "3.15 MB", link: "#" },
+      { name: "Rain Logo.Zip", size: "2.02 MB", link: "#" },
       { name: "Veltrix admin.Zip", size: "2.25 MB", link: "#" },
     ],
     comments: [
@@ -345,8 +345,8 @@ const projects = [
   {
     id: 6,
     img: "img3",
-    name: "Multipurpose Landing",
-    description: "It will be as simple as Occidental",
+    name: "Ryan K. Buchanan",
+    description: "Environment and Natural Resources Division (ENRD)",
     status: "Delay",
     color: "danger",
     dueDate: "2019-10-15",
@@ -359,8 +359,8 @@ const projects = [
   {
     id: 7,
     img: "img4",
-    name: "App Landing UI",
-    description: "It will be as simple as Occidental",
+    name: "Shawn N. Anderson",
+    description: "Criminal Division",
     status: "Completed",
     color: "success",
     dueDate: "11 Oct, 19",
@@ -380,9 +380,9 @@ const projects = [
       ],
     },
     files: [
-      { name: "Skote Landing.Zip", size: "3.25 MB", link: "#" },
-      { name: "Skote Admin.Zip", size: "3.15 MB", link: "#" },
-      { name: "Skote Logo.Zip", size: "2.02 MB", link: "#" },
+      { name: "Rain Landing.Zip", size: "3.25 MB", link: "#" },
+      { name: "Rain Admin.Zip", size: "3.15 MB", link: "#" },
+      { name: "Rain Logo.Zip", size: "2.02 MB", link: "#" },
       { name: "Veltrix admin.Zip", size: "2.25 MB", link: "#" },
     ],
     comments: [
@@ -412,8 +412,8 @@ const projects = [
   {
     id: 8,
     img: "img2",
-    name: "New admin Design",
-    description: "Their most common words.",
+    name: "Gregory K. Harris",
+    description: "National Security Division (NSD).",
     status: "Completed",
     color: "success",
     dueDate: "2019-10-12",
@@ -435,9 +435,9 @@ const projects = [
       ],
     },
     files: [
-      { name: "Skote Landing.Zip", size: "3.25 MB", link: "#" },
-      { name: "Skote Admin.Zip", size: "3.15 MB", link: "#" },
-      { name: "Skote Logo.Zip", size: "2.02 MB", link: "#" },
+      { name: "Rain Landing.Zip", size: "3.25 MB", link: "#" },
+      { name: "Rain Admin.Zip", size: "3.15 MB", link: "#" },
+      { name: "Rain Logo.Zip", size: "2.02 MB", link: "#" },
       { name: "Veltrix admin.Zip", size: "2.25 MB", link: "#" },
     ],
     comments: [

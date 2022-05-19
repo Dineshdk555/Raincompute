@@ -19,6 +19,7 @@ import ProjectsOverview from "pages/Dashboard/ProjectOverview/Projects-overview"
 import ProjectsCreate from "pages/Dashboard/Projects-Create"
 
 const authProtectedRoutes = [
+  
   { path: "/ProjectGrid", component: ProjectGrid },
   { path: "/ProjectList", component: ProjectList}, 
   { path: "/Projectsoverview", component: ProjectsOverview},

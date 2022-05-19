@@ -32,7 +32,7 @@ const ProjectDetail = ({ project }) => {
               </p>
             ))}
         </div>
-
+{/* 
         <Row className="task-dates">
           <Col sm="4" xs="6">
             <div className="mt-4">
@@ -52,7 +52,7 @@ const ProjectDetail = ({ project }) => {
               <p className="text-muted mb-0">{project.dueDate}</p>
             </div>
           </Col>
-        </Row>
+        </Row> */}
       </CardBody>
     </Card>
   );
