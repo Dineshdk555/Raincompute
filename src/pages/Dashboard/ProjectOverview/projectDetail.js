@@ -17,7 +17,7 @@ const ProjectDetail = ({ project }) => {
           </div>
         </div>
 
-        <h5 className="font-size-15 mt-4">Project Details :</h5>
+        <h5 className="font-size-15 mt-4">Attorney Details :</h5>
 
         <p className="text-muted">
           {get(project, "projectDetails.description")}

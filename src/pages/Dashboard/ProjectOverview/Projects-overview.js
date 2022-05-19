@@ -49,7 +49,7 @@ const ProjectsOverview = props => {
         </MetaTags>
         <Container fluid>
           {/* Render Breadcrumbs */}
-          <Breadcrumbs title="Projects" breadcrumbItem="Project Overview" />
+          <Breadcrumbs title="Attorney" breadcrumbItem="Attorney Details" />
 
           {!isEmpty(projectDetail) && (
             <>
