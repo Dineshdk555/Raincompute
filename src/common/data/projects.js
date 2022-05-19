@@ -345,7 +345,7 @@ const projects = [
   {
     id: 6,
     img: "img3",
-    name: "Ryan K. Buchanan",
+    name: "Duston J. Slinkard ",
     description: "Environment and Natural Resources Division (ENRD)",
     status: "Delay",
     color: "danger",
@@ -358,7 +358,21 @@ const projects = [
   },
   {
     id: 7,
-    img: "img4",
+    img: "img3",
+    name: "Ryan K. Buchanan",
+    description: "Environment and Natural Resources Division (ENRD)",
+    status: "Delay",
+    color: "danger",
+    dueDate: "2019-10-15",
+    commentsCount: 214,
+    team: [
+      { id: 1, img: "avatar5", fullname: "Steve Foster" },
+      { id: 3, img: "Null", name: "R", color: "warning", fullname: "Rony Candles" },
+    ],
+  },
+  {
+    id: 8,
+    img: "img3",
     name: "Shawn N. Anderson",
     description: "Criminal Division",
     status: "Completed",
@@ -410,8 +424,8 @@ const projects = [
     ],
   },
   {
-    id: 8,
-    img: "img2",
+    id: 9,
+    img: "img3",
     name: "Gregory K. Harris",
     description: "National Security Division (NSD).",
     status: "Completed",
@@ -464,6 +478,113 @@ const projects = [
       },
     ],
   },
+  {
+    id: 10,
+    img: "img4",
+    name: "Brandon B. Brown ",
+    description: "Criminal Division",
+    status: "Completed",
+    color: "success",
+    dueDate: "11 Oct, 19",
+    commentsCount: 185,
+    team: [
+      { id: 1, img: "Null", name: "L", color: "pink", fullname: "Lony Mackay" },
+      { id: 3, img: "avatar2", fullname: "Daniel Candles" },
+    ],
+    startDate: "08 Sept, 2019",
+    projectDetails: {
+      description:
+        "To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,",
+      points: [
+        "To achieve this, it would be necessary",
+        "Separate existence is a myth.",
+        "If several languages coalesce",
+      ],
+    },
+    files: [
+      { name: "Rain Landing.Zip", size: "3.25 MB", link: "#" },
+      { name: "Rain Admin.Zip", size: "3.15 MB", link: "#" },
+      { name: "Rain Logo.Zip", size: "2.02 MB", link: "#" },
+      { name: "Veltrix admin.Zip", size: "2.25 MB", link: "#" },
+    ],
+    comments: [
+      {
+        id: 1,
+        username: "David Lambert",
+        userImg: "avatar2",
+        comment: "Separate existence is a myth.",
+      },
+      {
+        id: 2,
+        username: "Steve Foster",
+        userImg: "avatar3",
+        comment: "@Henry To an English person it will like simplified",
+        reply: {
+          username: "Jeffrey Walker",
+          comment: "as a skeptical Cambridge friend",
+        },
+      },
+      {
+        id: 3,
+        username: "Steven Carlson",
+        comment: " Separate existence is a myth.",
+      },
+    ],
+  },
+  {
+    id: 11,
+    img: "img2",
+    name: "James C. Clay Joyner",
+    description: "Criminal Division",
+    status: "Completed",
+    color: "success",
+    dueDate: "11 Oct, 19",
+    commentsCount: 185,
+    team: [
+      { id: 1, img: "Null", name: "L", color: "pink", fullname: "Lony Mackay" },
+      { id: 3, img: "avatar2", fullname: "Daniel Candles" },
+    ],
+    startDate: "08 Sept, 2019",
+    projectDetails: {
+      description:
+        "To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,",
+      points: [
+        "To achieve this, it would be necessary",
+        "Separate existence is a myth.",
+        "If several languages coalesce",
+      ],
+    },
+    files: [
+      { name: "Rain Landing.Zip", size: "3.25 MB", link: "#" },
+      { name: "Rain Admin.Zip", size: "3.15 MB", link: "#" },
+      { name: "Rain Logo.Zip", size: "2.02 MB", link: "#" },
+      { name: "Veltrix admin.Zip", size: "2.25 MB", link: "#" },
+    ],
+    comments: [
+      {
+        id: 1,
+        username: "David Lambert",
+        userImg: "avatar2",
+        comment: "Separate existence is a myth.",
+      },
+      {
+        id: 2,
+        username: "Steve Foster",
+        userImg: "avatar3",
+        comment: "@Henry To an English person it will like simplified",
+        reply: {
+          username: "Jeffrey Walker",
+          comment: "as a skeptical Cambridge friend",
+        },
+      },
+      {
+        id: 3,
+        username: "Steven Carlson",
+        comment: " Separate existence is a myth.",
+      },
+    ],
+  },
+  
 ]
 
 const options = {
