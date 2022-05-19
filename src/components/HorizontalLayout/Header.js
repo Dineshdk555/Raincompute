@@ -316,12 +316,12 @@ const Header = props => {
          {/* <div className="d-flex flex-wrap gap-2"> */}
                     <button
                       type="button"
-                      className="btn btn-danger "
+                      className="btn btn-primary "
                       style={{
                         marginTop: "20%",
                       }}
                     >
-                      <i className="bx bx-smile font-size-10 align-middle me-0"></i>{" "}
+                      {/* <i className="bx bx-smile font-size-10 align-middle me-0"></i>{" "} */}
                       Login
                     </button>
                     {/* </div> */}

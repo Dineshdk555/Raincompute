@@ -22,7 +22,7 @@ const CardProject = ({ projects }) => {
               <div className="d-flex">
                 <div className="avatar-md me-4">
                   {/* <span className="avatar-title rounded-circle bg-light text-danger font-size-16"> */}
-                    <img src={companies[project.img]} alt="" height="100" />
+                    <img src={companies[project.img]} alt="" height="80" />
                   {/* </span> */}
                 </div>
 

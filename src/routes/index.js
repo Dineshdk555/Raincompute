@@ -17,6 +17,8 @@ import ProjectGrid from "pages/Dashboard/Project-Grid"
 import ProjectList from "pages/Dashboard/Project-List"
 import ProjectsOverview from "pages/Dashboard/ProjectOverview/Projects-overview"
 import ProjectsCreate from "pages/Dashboard/Projects-Create"
+import AboutUs from "../pages/navContent/About_us/index"
+import Solutions from "../pages/navContent/Solutions/index"
 
 const authProtectedRoutes = [
   
@@ -27,6 +29,10 @@ const authProtectedRoutes = [
   { path: "/ProjectsCreate", component: ProjectsCreate },
 
   { path: "/chat", component: Chat },
+  { path: "/aboutus", component: AboutUs },
+  { path: "/solutions", component: Solutions },
+
+
 
   // //profile
   { path: "/profile", component: UserProfile },

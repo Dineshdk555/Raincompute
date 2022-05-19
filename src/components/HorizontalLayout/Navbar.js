@@ -121,11 +121,11 @@ const Navbar = props => {
 
                 <li className="nav-item dropdown">
                   <Link
-                    to="/#"
-                    onClick={e => {
-                      e.preventDefault();
-                      setui(!ui);
-                    }}
+                    to="/aboutus"
+                    // onClick={e => {
+                    //   e.preventDefault();
+                    //   setui(!ui);
+                    // }}
                     className="nav-link dropdown-toggle arrow-none"
                   >
                     <i className="bx bx-tone me-2"></i>
@@ -522,12 +522,12 @@ const Navbar = props => {
 
                 <li className="nav-item dropdown">
                   <Link
-                    to="/#"
+                    to="/solutions"
                     className="nav-link dropdown-toggle arrow-none"
-                    onClick={e => {
-                      e.preventDefault();
-                      setcomponent(!component);
-                    }}
+                    // onClick={e => {
+                    //   e.preventDefault();
+                    //   setcomponent(!component);
+                    // }}
                   >
                     <i className="bx bx-collection me-2"></i>
                     {props.t("Solutions")} 
@@ -536,8 +536,8 @@ const Navbar = props => {
                   <div
                     className={classname("dropdown-menu", { show: component })}
                   >
-                    {/* <div className="dropdown">
-                      <Link
+                     <div className="dropdown">
+                      {/* <Link
                         to="/#"
                         className="dropdown-item dropdown-toggle arrow-none"
                         onClick={e => {
@@ -545,9 +545,10 @@ const Navbar = props => {
                           setform(!form);
                         }}
                       >
-                        {props.t("Forms")} <div className="arrow-down"></div>
-                      </Link>
-                      <div
+                        {props.t("Enterprise")} 
+                        <div className="arrow-down"></div>
+                      </Link> */}
+                      {/* <div
                         className={classname("dropdown-menu", { show: form })}
                       >
                         <Link to="#" className="dropdown-item">
@@ -583,10 +584,10 @@ const Navbar = props => {
                         <Link to="#" className="dropdown-item">
                           {props.t("Transfer List")}
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="dropdown">
-                      <Link
+                      {/* <Link
                         to="/#"
                         className="dropdown-item dropdown-toggle arrow-none"
                         onClick={e => {
@@ -594,9 +595,10 @@ const Navbar = props => {
                           settable(!table);
                         }}
                       >
-                        {props.t("Tables")} <div className="arrow-down"></div>
-                      </Link>
-                      <div
+                        {props.t("Private Label")} 
+                        <div className="arrow-down"></div>
+                      </Link> */}
+                      {/* <div
                         className={classname("dropdown-menu", { show: table })}
                       >
                         <Link to="#" className="dropdown-item">
@@ -614,10 +616,10 @@ const Navbar = props => {
                         <Link to="#" className="dropdown-item">
                           {props.t("Drag & Drop Table")}
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="dropdown">
-                      <Link
+                      {/* <Link
                         to="/#"
                         className="dropdown-item dropdown-toggle arrow-none"
                         onClick={e => {
@@ -625,9 +627,10 @@ const Navbar = props => {
                           setchart(!chart);
                         }}
                       >
-                        {props.t("Charts")} <div className="arrow-down"></div>
-                      </Link>
-                      <div
+                        {props.t("Management")}
+                         <div className="arrow-down"></div>
+                      </Link> */}
+                      {/* <div
                         className={classname("dropdown-menu", { show: chart })}
                       >
                         <Link to="#" className="dropdown-item">
@@ -655,9 +658,9 @@ const Navbar = props => {
                         <Link to="#" className="dropdown-item">
                           {props.t("Re Chart")}
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
-                    <div className="dropdown">
+                    {/* <div className="dropdown">
                       <Link
                         to="/#"
                         className="dropdown-item dropdown-toggle arrow-none"
@@ -687,8 +690,8 @@ const Navbar = props => {
                           {props.t("Font awesome")}{" "}
                         </Link>
                       </div>
-                    </div>
-                    <div className="dropdown">
+                    </div> */}
+                    {/* <div className="dropdown">
                       <Link
                         to="/#"
                         className="dropdown-item dropdown-toggle arrow-none"
@@ -712,7 +715,7 @@ const Navbar = props => {
                           {props.t("Leaflet Maps")}{" "}
                         </Link>
                       </div> 
-                    </div> */}
+                    </div>  */}
                   </div>
                 </li>
 

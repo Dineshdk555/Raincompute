@@ -8,8 +8,8 @@ const NonAuthLayout = (props) => {
 
       <div style={{width:"100%",display:"flex",justifyContent:"space-between",columnGap:"30px"}}> 
       <div style={{marginLeft: "10%",marginTop:"5%"}}>
-      <img src={Rain}/>
-      <div style={{marginLeft:"25%",marginTop:"15%"}}>
+      {/* <img src={Rain}/> */}
+      <div style={{marginLeft:"5%",marginTop:"25%"}}>
       <img src={Computing}/>
       </div>
       </div>
