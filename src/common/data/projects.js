@@ -40,11 +40,12 @@ const projects = [
     startDate: "08 may, 2022",
     projectDetails: {
       description:
-        "To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,",
+        "Prior to her tenure at the Department of Justice, Ms. Escalona served as Deputy Solicitor General in the Office of the Attorney General of the State of Alabama, was a visiting assistant professor at the University of Alabama School of Law, and worked in private practice.  Ms. Escalona also served as a law clerk for the Honorable William H. Pryor Jr. on the U.S. Court of Appeals for the Eleventh Circuit.",
       Experience : "7Yrs",
       Skills : "State Court",
       points: [
-        "To achieve this, it would be necessary",
+        "Federal Law Enforcement Focuses on Violent Crime in Tuscaloosa  U.S. Attorney Prim Escalona Recognizes Police Week",
+      
         "Separate existence is a myth.",
         "If several languages coalesce",
       ],
@@ -202,7 +203,7 @@ const projects = [
     startDate: "08 Sept, 2019",
     projectDetails: {
       description:
-        "To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,",
+        "During his time in the United States Attorney’s Office, Mr. Fowlkes also previously served as the Coordinator for the Organized Crime and Drug Enforcement Task Force (OCDETF) Unit of the USAO, and has prosecuted a variety of criminal cases.  He has also held the positions of Criminal Chief and Senior Litigation Counsel.",
       points: [
         "To achieve this, it would be necessary",
         "Separate existence is a myth.",
@@ -281,7 +282,7 @@ const projects = [
     startDate: "08 Sept, 2019",
     projectDetails: {
       description:
-        "To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,",
+        "During his time in the United States Attorney’s Office, Mr. Fowlkes also previously served as the Coordinator for the Organized Crime and Drug Enforcement Task Force (OCDETF) Unit of the USAO, and has prosecuted a variety of criminal cases.  He has also held the positions of Criminal Chief and Senior Litigation Counsel.",
       points: [
         "To achieve this, it would be necessary",
         "Separate existence is a myth.",
@@ -362,7 +363,7 @@ const projects = [
     startDate: "08 Sept, 2019",
     projectDetails: {
       description:
-        "To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,",
+        "During his time in the United States Attorney’s Office, Mr. Fowlkes also previously served as the Coordinator for the Organized Crime and Drug Enforcement Task Force (OCDETF) Unit of the USAO, and has prosecuted a variety of criminal cases.  He has also held the positions of Criminal Chief and Senior Litigation Counsel.",
       points: [
         "To achieve this, it would be necessary",
         "Separate existence is a myth.",
@@ -442,7 +443,7 @@ const projects = [
     startDate: "08 Sept, 2019",
     projectDetails: {
       description:
-        "To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,",
+        "During his time in the United States Attorney’s Office, Mr. Fowlkes also previously served as the Coordinator for the Organized Crime and Drug Enforcement Task Force (OCDETF) Unit of the USAO, and has prosecuted a variety of criminal cases.  He has also held the positions of Criminal Chief and Senior Litigation Counsel.",
       points: [
         "To achieve this, it would be necessary",
         "Separate existence is a myth.",
@@ -604,7 +605,7 @@ const projects = [
     startDate: "08 Sept, 2019",
     projectDetails: {
       description:
-        "To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,",
+        "During his time in the United States Attorney’s Office, Mr. Fowlkes also previously served as the Coordinator for the Organized Crime and Drug Enforcement Task Force (OCDETF) Unit of the USAO, and has prosecuted a variety of criminal cases.  He has also held the positions of Criminal Chief and Senior Litigation Counsel.",
       points: [
         "To achieve this, it would be necessary",
         "Separate existence is a myth.",
@@ -686,7 +687,7 @@ const projects = [
     startDate: "08 Sept, 2019",
     projectDetails: {
       description:
-        "To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,",
+        "During his time in the United States Attorney’s Office, Mr. Fowlkes also previously served as the Coordinator for the Organized Crime and Drug Enforcement Task Force (OCDETF) Unit of the USAO, and has prosecuted a variety of criminal cases.  He has also held the positions of Criminal Chief and Senior Litigation Counsel.",
       points: [
         "To achieve this, it would be necessary",
         "Separate existence is a myth.",
@@ -766,7 +767,7 @@ const projects = [
     startDate: "08 Sept, 2019",
     projectDetails: {
       description:
-        "To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,",
+        "During his time in the United States Attorney’s Office, Mr. Fowlkes also previously served as the Coordinator for the Organized Crime and Drug Enforcement Task Force (OCDETF) Unit of the USAO, and has prosecuted a variety of criminal cases.  He has also held the positions of Criminal Chief and Senior Litigation Counsel.",
       points: [
         "To achieve this, it would be necessary",
         "Separate existence is a myth.",
@@ -846,7 +847,7 @@ const projects = [
     startDate: "08 Sept, 2019",
     projectDetails: {
       description:
-        "To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,",
+        "During his time in the United States Attorney’s Office, Mr. Fowlkes also previously served as the Coordinator for the Organized Crime and Drug Enforcement Task Force (OCDETF) Unit of the USAO, and has prosecuted a variety of criminal cases.  He has also held the positions of Criminal Chief and Senior Litigation Counsel.",
       points: [
         "To achieve this, it would be necessary",
         "Separate existence is a myth.",

@@ -11,6 +11,8 @@ import {
 } from "reactstrap";
 import images from "assets/images";
 import companies from "assets/images/companies";
+import { CardTitle } from "reactstrap";
+import { Button } from "reactstrap";
 
 const CardProject = ({ projects }) => {
   return (
@@ -28,15 +30,28 @@ const CardProject = ({ projects }) => {
 
                 <div className="flex-grow-1 overflow-hidden">
                   <h5 className="text-truncate font-size-15">
-                    <Link
-                      to={`/ProjectsOverview/${project.id}`}
-                      className="text-dark"
-                    >
-                      {project.name}
-                    </Link>
+                  {project.name}
                   </h5>
                   <p className="text-muted mb-4">{project.description}</p>
 
+                  <div>
+                  <p>Experience : 10Yrs.</p>
+
+                  <p>Place : Alabama, Northern.</p>
+                </div>
+                <Link
+                    to={`/ProjectsOverview/${project.id}`}
+                    className="text-dark"
+                  >
+                <Button
+                      color="primary"
+                      className="btn-sm"
+                    >
+                    
+                  
+                      Preview
+                    </Button>
+                    </Link>
                   {/* <div className="avatar-group">
                     {project.team.map((team, key) =>
                       !team.img || team.img !== "Null" ? (
@@ -96,6 +111,7 @@ const CardProject = ({ projects }) => {
                   </div> */}
                 </div>
               </div>
+
             </CardBody>
             {/* <div className="px-4 py-3 border-top">
               <ul className="list-inline mb-0">

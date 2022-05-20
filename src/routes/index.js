@@ -22,7 +22,7 @@ import Solutions from "../pages/navContent/Solutions/index"
 
 const authProtectedRoutes = [
   
-  { path: "/ProjectGrid", component: ProjectGrid },
+  
   { path: "/ProjectList", component: ProjectList}, 
   { path: "/Projectsoverview", component: ProjectsOverview},
   { path: "/Projectsoverview/:id", component: ProjectsOverview },
@@ -43,6 +43,7 @@ const authProtectedRoutes = [
 ]
 
 const publicRoutes = [
+  { path: "/ProjectGrid", component: ProjectGrid },
   { path: "/logout", component: Logout },
   { path: "/login", component: Login },
   { path: "/forgot-password", component: ForgetPwd },

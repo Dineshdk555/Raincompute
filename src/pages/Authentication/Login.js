@@ -336,8 +336,8 @@ import { loginUser, socialLogin } from "../../store/actions";
 
 // import images
 
-import profile from "assets/images/profile-img.png";
-import logo from "assets/images/logo-light.png";
+import Rain  from "assets/images/rain.png";
+import Computing from "assets/images/computer.png" 
 
 //Import config
 import { facebook, google } from "../../config";
@@ -408,18 +408,18 @@ const Login = props => {
 
   return (
     <React.Fragment>
+       <div className="page-content">
       <MetaTags>
         <title>Login | Rain -  Admin & Dashboard Template</title>
       </MetaTags>
-    
-      <Header/>
-      <Navbar/>
-
-      {/* <div className="home-btn d-none d-sm-block">
-        <Link to="/" className="text-dark">
-          <i className="fas fa-home h2" />
-        </Link>
-      </div> */}
+    <div style={{width:"100%",display:"flex",justifyContent:"space-between",columnGap:"30px"}}> 
+      <div style={{marginLeft: "10%",marginTop:"5%"}}>
+      {/* <img src={Rain}/> */}
+      <div style={{marginLeft:"5%",marginTop:"25%"}}>
+      <img src={Computing}/>
+      </div>
+      </div>
+      <div style={{width:"50%"}}>
       <div className="account-pages my-5 pt-sm-5">
         <Container>
           <Row className="justify-content-center">
@@ -612,7 +612,19 @@ const Login = props => {
         </Container>
       </div>
       
+      </div>
+      </div>
      
+      {/* <Header/>
+      <Navbar/> */}
+
+      {/* <div className="home-btn d-none d-sm-block">
+        <Link to="/" className="text-dark">
+          <i className="fas fa-home h2" />
+        </Link>
+      </div> */}
+     
+      </div>
    </React.Fragment>
 
   );

@@ -31,8 +31,10 @@ import slack from "../../assets/images/brands/slack.png";
 
 //i18n
 import { withTranslation } from "react-i18next";
-
 const Header = props => {
+
+  const loggedIn=  localStorage.getItem("authUser")
+  
   const [menu, setMenu] = useState(false);
   const [isSearch, setSearch] = useState(false);
   const [socialDrp, setsocialDrp] = useState(false);
@@ -300,7 +302,7 @@ const Header = props => {
               </div>
             </div>
             
-         <Link to="/register">
+         {/* <Link to="/register"> */}
          {/* <span className="d-inline-block">{props.t("Signup")}</span>          */}
          {/* <div className="d-flex flex-wrap gap-2"> */}
                     {/* <button
@@ -311,10 +313,12 @@ const Header = props => {
                       Signup
                     </button> */}
                     {/* </div> */}
-         <Link to="/logout">         
          {/* <span >{props.t("Login")}</span> */}
          {/* <div className="d-flex flex-wrap gap-2"> */}
-                    <button
+               {loggedIn? <ProfileMenu />    : 
+         <Link to="/login">         
+
+               <button
                       type="button"
                       className="btn btn-primary "
                       style={{
@@ -324,10 +328,12 @@ const Header = props => {
                       {/* <i className="bx bx-smile font-size-10 align-middle me-0"></i>{" "} */}
                       Login
                     </button>
+         </Link>
+
+                    }
                     {/* </div> */}
 
-         </Link>
-         </Link>
+         {/* </Link> */}
 
             {/* <Dropdown
               className="d-none d-lg-inline-block ms-1"

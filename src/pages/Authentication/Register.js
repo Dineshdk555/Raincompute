@@ -57,6 +57,7 @@ const Register = props => {
 
   return (
     <React.Fragment>
+       <div className="page-content">
       <MetaTags>
         <title>Register | Rain - Admin & Dashboard Template</title>
       </MetaTags>
@@ -65,7 +66,7 @@ const Register = props => {
           <i className="fas fa-home h2" />
         </Link>
       </div>
-      <div className="account-pages my-5 pt-sm-5">
+      <div className="account-pages  pt-sm-5">
         <Container>
           <Row className="justify-content-center">
             <Col xl={8}>
@@ -209,6 +210,7 @@ const Register = props => {
             </Col>
           </Row>
         </Container>
+      </div>
       </div>
     </React.Fragment>
   );
